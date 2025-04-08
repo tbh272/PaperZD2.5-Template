@@ -43,6 +43,12 @@ There is 3 Widget BP that I made, and put some temporary code.
 - Main Menu
 - Main player HUD 
 
+# Instructions:
+
+click the blue box where it says code, and download as zip, and extract to unreal projects folder or wherever you keep your projects at
+
+*side note: this was my first time using revision control with github so I dont know how it fully works*
+
 # End/Credits:
 
 I am not a professional, like others out there I use youtube, itch.io, and my own knowledge from school to make games, more recently ive been liking making templates for people to use, completely rework, or change. Hopefully some things I used/made is helpful for everyone out there, and I hope to make more and more updates, and changes in the future.
