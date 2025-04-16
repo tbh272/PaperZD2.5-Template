@@ -8,31 +8,46 @@ Developed with Unreal Engine 5! I used PaperZD Plugin, mixed it with platformer 
 - Combo system that is expandable with comments
    - Able to use spritesheets
    - all dealt with in the AnimBP
+   - system built around a tutorial, but expanded
+       - combo built around a tree system, lets say you mash a light attack (L - shortened) then it would play L, L, L, L
+       - similar to some hack and slash/button mashing games
  
 # Objects:
 
-You'll notice a folder called objects, I started a paperzd base mainly because I wanted the ease of use for 2D objects, granted it would be easier just to use an actor BP class, I wanted to add functionality like flipbooks, etc. 
+You'll notice a folder called objects, I started a paperzd base mainly because I wanted the ease of use for 2D objects, granted it would be easier just to use an actor BP class, I wanted to add functionality like flipbooks, etc. To also point out there is a interface since I started expanding a bit more than I thought, so there is a Damage interface to handle taking/giving damage.
 
-- base class
-  - paper flipbook
-- coins/coin stack similar to mario games
-- spike trap like every platformer using multiple paper flipbook's
+- there is two base classes (one for 3D and 2D)
+
+- 3D: (WIP)
+    - can choose between skeletal mesh or static mesh (both have its uses mainly see it good for animation)
+    - this is newer than the 2D concept so while same functions apply to both, I want to expand for more animation like said before
+ 
+- 2D:
+   - instead of a mesh, you have a paper flipbook to show
+   - baseline work like handling damage
+   - simple destroys the actor if overlapping
+
 
 # Enemies:
 
 Has 3 types but going to fix, expand, and add more later on. 
-
-- Goomba
-   - typical should move left/right and detect collisions
-   - semi works, but for some reason the collision does not work 100% of the time
  
 - Turret
    - Uses pawn sensing, and spawns an bullet bp object when detected
-   - supposed to only rotate up/down but the pawn sensing and my code makes it rotate left/right as well, going to fix when I get time xD
+   - only rotate up/down but the pawn sensing and my code makes it rotate left/right as well, going to fix when I get time xD
  
 - Skeleton
    - Typical health/damage enemy
    - no ai behavior to attack the player, but can take damage and die using a sprite flicker
+   - FUTURE:
+        - simple AI, edge detection
+        - See/hurt player
+
+REMOVED:
+
+- Goomba (removed April 16 due to giving the skeleton simple AI)
+   - typical should move left/right and detect collisions
+   - semi works, but for some reason the collision does not work 100% of the time
 
 
 # UI
