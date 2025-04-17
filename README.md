@@ -23,9 +23,9 @@ You'll notice a folder called objects, I started a paperzd base mainly because I
 
 ### there is two base classes (one for 3D and 2D)
 
-### 3D: (WIP)
-    - can choose between skeletal mesh or static mesh (both have its uses mainly see it good for animation)
-    - this is newer than the 2D concept so while same functions apply to both, I want to expand for more animation like said before
+## 3D: (WIP)
+  - can choose between skeletal mesh or static mesh (both have its uses mainly see it good for animation)
+  - this is newer than the 2D concept so while same functions apply to both, I want to expand for more animation like said before
  
 ### 2D:
    - instead of a mesh, you have a paper flipbook to show
