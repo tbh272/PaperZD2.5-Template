@@ -21,13 +21,13 @@ Developed with Unreal Engine 5! I used PaperZD Plugin, mixed it with platformer 
 
 You'll notice a folder called objects, I started a paperzd base mainly because I wanted the ease of use for 2D objects, granted it would be easier just to use an actor BP class, I wanted to add functionality like flipbooks, etc. To also point out there is a interface since I started expanding a bit more than I thought, so there is a Damage interface to handle taking/giving damage.
 
-- there is two base classes (one for 3D and 2D)
+### there is two base classes (one for 3D and 2D)
 
-- 3D: (WIP)
+### 3D: (WIP)
     - can choose between skeletal mesh or static mesh (both have its uses mainly see it good for animation)
     - this is newer than the 2D concept so while same functions apply to both, I want to expand for more animation like said before
  
-- 2D:
+### 2D:
    - instead of a mesh, you have a paper flipbook to show
    - baseline work like handling damage
    - simple destroys the actor if overlapping
@@ -36,11 +36,11 @@ You'll notice a folder called objects, I started a paperzd base mainly because I
 
 Has 3 types but going to fix, expand, and add more later on. 
  
-- Turret
+### Turret
    - Uses pawn sensing, and spawns an bullet bp object when detected
    - only rotate up/down but the pawn sensing and my code makes it rotate left/right as well, going to fix when I get time xD
  
-- Skeleton
+### Skeleton
    - Typical health/damage enemy
    - no ai behavior to attack the player, but can take damage and die using a sprite flicker
    - FUTURE:
@@ -51,9 +51,9 @@ Has 3 types but going to fix, expand, and add more later on.
 
 There is 3 Widget BP that I made, and put some temporary code. 
 
-- Death/Respawn Screen
-- Main Menu
-- Main player HUD 
+### Death/Respawn Screen
+### Main Menu
+### Main player HUD 
 
 ## Instructions:
 
