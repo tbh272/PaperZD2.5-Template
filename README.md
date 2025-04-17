@@ -7,7 +7,7 @@ Developed with Unreal Engine 5! I used PaperZD Plugin, mixed it with platformer 
    - Calculate damage:
       - Now it will depend on player attack, and enemy defense (vice versa) on how much damage is dealt! HUGE WIN for me personally!!!
 
-### Attack System:
+## Attack System:
 - Linetrace instead of collision shapes
    - Mainly its due to I dont like have to mess with collision shapes all that much, and I dont think the performance is necessary for a 2D project whereas a project using a third person view (similar to FF7 Remake) would be better for collision shapes.
 - Combo system that is expandable with comments
@@ -17,7 +17,7 @@ Developed with Unreal Engine 5! I used PaperZD Plugin, mixed it with platformer 
        - combo built around a tree system, lets say you mash a light attack (L - shortened) then it would play L, L, L, L
        - similar to some hack and slash/button mashing games
 
-#### Objects:
+### Objects:
 
 You'll notice a folder called objects, I started a paperzd base mainly because I wanted the ease of use for 2D objects, granted it would be easier just to use an actor BP class, I wanted to add functionality like flipbooks, etc. To also point out there is a interface since I started expanding a bit more than I thought, so there is a Damage interface to handle taking/giving damage.
 
@@ -32,7 +32,7 @@ You'll notice a folder called objects, I started a paperzd base mainly because I
    - baseline work like handling damage
    - simple destroys the actor if overlapping
 
-##### Enemies:
+#### Enemies:
 
 Has 3 types but going to fix, expand, and add more later on. 
  
@@ -47,7 +47,7 @@ Has 3 types but going to fix, expand, and add more later on.
         - simple AI, edge detection
         - See/hurt player
 
-###### UI
+#### UI
 
 There is 3 Widget BP that I made, and put some temporary code. 
 
@@ -55,18 +55,18 @@ There is 3 Widget BP that I made, and put some temporary code.
 - Main Menu
 - Main player HUD 
 
-####### Instructions:
+##### Instructions:
 
 click the blue box where it says code, and download as zip, and extract to unreal projects folder or wherever you keep your projects at
 
 *side note: this was my first time using revision control with github so I dont know how it fully works*
 
-######## Images:
+##### Images:
 
 ![abf860cd49e0a69bb6c294c65a359216](https://github.com/user-attachments/assets/4aee32ab-6400-403e-b8c7-ea4c424974fe)
 ![4ec5f2fcda94d65d821975539b4086b1](https://github.com/user-attachments/assets/a0eed4ed-6e23-41cb-9a3d-9870bef12766)
 
 
-######### End/Credits:
+##### End/Credits:
 
 I am not a professional, like others out there I use youtube, itch.io, and my own knowledge from school to make games, more recently ive been liking making templates for people to use, completely rework, or change. Hopefully some things I used/made is helpful for everyone out there, and I hope to make more and more updates, and changes in the future.
