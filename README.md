@@ -1,6 +1,10 @@
 # PaperZD 2.5D Template free for use!!!
 
 Developed with Unreal Engine 5! I used PaperZD Plugin, mixed it with platformer aspects like what you would see in mario games, and an attack system similar to any hack n' slash games.
+# Base Systems:
+- Stats Component (able to change each enemy health, defense, damage, etc)
+   - Calculate damage:
+      - Now it will depend on player attack, and enemy defense (vice versa) on how much damage is dealt! HUGE WIN for me personally!!!
 
 # Attack System:
 - Linetrace instead of collision shapes
@@ -42,13 +46,6 @@ Has 3 types but going to fix, expand, and add more later on.
    - FUTURE:
         - simple AI, edge detection
         - See/hurt player
-
-REMOVED:
-
-- Goomba (removed April 16 due to giving the skeleton simple AI)
-   - typical should move left/right and detect collisions
-   - semi works, but for some reason the collision does not work 100% of the time
-
 
 # UI
 
