@@ -6,6 +6,7 @@ Developed with Unreal Engine 5! I used PaperZD Plugin, mixed it with platformer 
 - Stats Component (able to change each enemy health, defense, damage, etc)
    - Calculate damage:
       - Now it will depend on player attack, and enemy defense (vice versa) on how much damage is dealt! HUGE WIN for me personally!!!
+      - Easy for creating enemies, just set health, how much defense, and their damage dealt to player!
 
 ## Attack System:
 ### Linetrace instead of collision shapes
