@@ -60,9 +60,9 @@ Has 3 types but going to fix, expand, and add more later on.
 
 There is 3 Widget BP that I made, and put some temporary code. 
 
-## Death/Respawn Screen
-## Main Menu
-## Main player HUD 
+- Death/Respawn Screen
+- Main Menu
+- Main player HUD 
 
 ## Instructions:
 
