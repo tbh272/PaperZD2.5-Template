@@ -7,6 +7,14 @@ Developed with Unreal Engine 5! I used PaperZD Plugin, mixed it with platformer 
    - Calculate damage:
       - Now it will depend on player attack, and enemy defense (vice versa) on how much damage is dealt! HUGE WIN for me personally!!!
       - Easy for creating enemies, just set health, how much defense, and their damage dealt to player!
+      - for the nerds out there here is the formula i used to calculate damage: totaldamage = base damage * (attack / (attack + defense) 
+    
+- Dialogue Component (able to give NPC's and Maybe bosses talking points)
+   - Datatable driven
+   - struct to make the ^^ easier to handle
+ 
+- Sprite Flicker Component (set seperate flicker times for each type of obj/enemy
+   - Flicker timer/float        
 
 ## Attack System:
 ### Linetrace instead of collision shapes
@@ -14,7 +22,7 @@ Developed with Unreal Engine 5! I used PaperZD Plugin, mixed it with platformer 
 ### Combo system that is expandable with comments
    - Able to use spritesheets
    - all dealt with in the AnimBP
-   - system built around a tutorial, but expanded
+   - system built around a tutorial, but expanded 
        - combo built around a tree system, lets say you mash a light attack (L - shortened) then it would play L, L, L, L
        - similar to some hack and slash/button mashing games
 
@@ -52,9 +60,9 @@ Has 3 types but going to fix, expand, and add more later on.
 
 There is 3 Widget BP that I made, and put some temporary code. 
 
-### Death/Respawn Screen
-### Main Menu
-### Main player HUD 
+- Death/Respawn Screen
+- Main Menu
+- Main player HUD 
 
 ## Instructions:
 
