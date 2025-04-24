@@ -41,7 +41,7 @@ Developed with **Unreal Engine 5** using the **PaperZD Plugin**, this template p
 
 Contains a dedicated "Objects" folder with base classes designed for 2D elements using PaperZD. While standard Actor Blueprints could be used, these classes offer integrated functionalities like flipbook handling.
 
--   Includes a **Damage Interface** (`IDamage`) for consistent damage application and reception across different object types.
+-   Includes a **Damage Interface** (`BPI_Damageable`) for consistent damage application and reception across different object types.
 
 -   **Two Base Classes:**
     -   **3D (WIP):** Supports both Skeletal and Static Meshes, catering to various animation needs. Currently under development with a focus on expanding animation capabilities.
