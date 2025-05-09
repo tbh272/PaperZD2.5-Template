@@ -84,6 +84,10 @@ Includes three basic Widget Blueprints with preliminary code:
 ![Gameplay Screenshot 1](https://github.com/user-attachments/assets/4aee32ab-6400-403e-b8c7-ea4c424974fe)
 ![Gameplay Screenshot 2](https://github.com/user-attachments/assets/a0eed4ed-6e23-41cb-9a3d-9870bef12766)
 
-##### End/Credits:
+#### End/Credits:
 
 I'm an enthusiastic hobbyist who learns through resources like YouTube, itch.io, and personal study. I enjoy creating templates to help others in the game development community. I hope this template proves useful for your projects, and I plan to release more updates and additions in the future. Feel free to use, modify, and build upon this foundation!
+
+# Assets Used:
+Main Player: https://clembod.itch.io/warrior-free-animation-set
+Skeleton: https://jesse-m.itch.io/skeleton-pack
