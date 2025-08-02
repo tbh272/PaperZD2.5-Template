@@ -2,6 +2,10 @@
 
 Developed with **Unreal Engine 5** using the **PaperZD Plugin**, this template provides a foundation for creating 2.5D platformer games with hack-n-slash combat. It blends classic platformer mechanics (think Mario) with an engaging attack system.
 
+## BIG 1.0 Release!
+
+- Fixed some things, and "removed" some things that I dont want to extend any further right now!
+
 ## Base Systems:
 
 -   **Stats Component:**
