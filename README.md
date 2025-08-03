@@ -1,10 +1,10 @@
 # PaperZD 2.5D Template - Free for Use!
 
-Developed with **Unreal Engine 5** using the **PaperZD Plugin**, this template provides a foundation for creating 2.5D platformer games with hack-n-slash combat. It blends classic platformer mechanics (think Mario) with an engaging attack system.
+Developed with **Unreal Engine 5** using the **PaperZD Plugin**, this template provides a foundation for creating 2.5D platformer games with hack-n-slash combat. It blends classic platformer mechanics (like Mario) with an improved attack system similar to hack n slash games.
 
-## BIG 1.0 Release!
+## Update 1.2!
 
-- Fixed some things, and "removed" some things that I dont want to extend any further right now!
+- Fixed some things, added a pixel shader (similar to PS1 style that is changeable), Updated UI for dialogue more BOTW style!!!
 
 ## Base Systems:
 
@@ -15,7 +15,7 @@ Developed with **Unreal Engine 5** using the **PaperZD Plugin**, this template p
     -   Simplifies the creation of diverse enemies with unique combat characteristics.
 
 -   **Dialogue Component:**
-    -   Facilitates in-game conversations with NPCs and potentially bosses.
+    -   Simple in-game conversations with NPCs and in the future potential bosses.
     -   **Datatable Driven:** Dialogue content is managed through easy-to-edit datatables.
     -   Utilizes a custom **struct** for streamlined data handling.
 
@@ -27,13 +27,14 @@ Developed with **Unreal Engine 5** using the **PaperZD Plugin**, this template p
 ## Attack System:
 
 -   **Linetrace for Hit Detection:**
-    -   Employs linetracing instead of complex collision shapes for attack registration.
+    -   Chose this instead of complex collision shapes for attack registration.
     -   Optimized for 2D projects, offering good performance without the overhead of detailed collision management.
+    -   System should be simple as adding attacks, and not having to go into the animation to adjust every frame needed
 
 -   **Expandable Combo System:**
+    -   Utilizes a **tree-based system** for combo execution. For example, repeatedly pressing a light attack (L) can trigger a sequence like L, L, L, L, similar to many hack-n-slash games.
     -   Implemented within the Animation Blueprint (AnimBP) using sprite sheets.
     -   Built upon a tutorial framework with significant expansion and clear comments for easy modification.
-    -   Utilizes a **tree-based system** for combo execution. For example, repeatedly pressing a light attack (L) can trigger a sequence like L, L, L, L, similar to many hack-n-slash games.
 
 ## Dialogue System:
 
