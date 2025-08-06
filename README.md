@@ -94,5 +94,8 @@ Includes three basic Widget Blueprints with preliminary code:
 I'm an enthusiastic hobbyist who learns through resources like YouTube, itch.io, and personal study. I enjoy creating templates to help others in the game development community. I hope this template proves useful for your projects, and I plan to release more updates and additions in the future. Feel free to use, modify, and build upon this foundation!
 
 # Assets Used:
-Main Player: https://clembod.itch.io/warrior-free-animation-set
-Skeleton: https://jesse-m.itch.io/skeleton-pack
+
+[Main Player](https://clembod.itch.io/warrior-free-animation-set)
+[Skeleton](https://jesse-m.itch.io/skeleton-pack)
+[Low Poly Assets](https://craigsnedeker.itch.io/classic64-asset-library)
+
