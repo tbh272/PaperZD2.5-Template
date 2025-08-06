@@ -95,7 +95,7 @@ I'm an enthusiastic hobbyist who learns through resources like YouTube, itch.io,
 
 # Assets Used:
 
-[Main Player](https://clembod.itch.io/warrior-free-animation-set)
-[Skeleton](https://jesse-m.itch.io/skeleton-pack)
-[Low Poly Assets](https://craigsnedeker.itch.io/classic64-asset-library)
+- [Main Player](https://clembod.itch.io/warrior-free-animation-set)
+- [Skeleton](https://jesse-m.itch.io/skeleton-pack)
+- [Low Poly Assets](https://craigsnedeker.itch.io/classic64-asset-library)
 
