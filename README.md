@@ -30,7 +30,7 @@ All previous updates are now merged into 1.3.
 
 - Manage stats like health, defense, and attack.
 - 💥 **Damage Formula**:  
-  `total damage = base damage × (attack / (attack + defense))`
+  `Total Damage = Base Damage × (Attack ÷ (Attack + Defense))`
 - Makes it easy to create enemies with different strengths.
 
 ### 💬 Dialogue Component
