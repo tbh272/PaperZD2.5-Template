@@ -2,9 +2,10 @@
 
 Developed with **Unreal Engine 5** using the **PaperZD Plugin**, this template provides a foundation for creating 2.5D platformer games with hack-n-slash combat. It blends classic platformer mechanics (like Mario) with an improved attack system similar to hack n slash games.
 
-## Update 1.2!
+## Update 1.3!
 
-- Fixed some things, added a pixel shader (similar to PS1 style that is changeable), Updated UI for dialogue more BOTW style!!!
+- Demo Map
+- All previous updates into 1.3 (check the relase page for other things added)
 
 ## Base Systems:
 
