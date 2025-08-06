@@ -1,102 +1,154 @@
-# PaperZD 2.5D Template - Free for Use!
+# 🕹️ PaperZD 2.5D Template - Free for Use!
 
-Developed with **Unreal Engine 5** using the **PaperZD Plugin**, this template provides a foundation for creating 2.5D platformer games with hack-n-slash combat. It blends classic platformer mechanics (like Mario) with an improved attack system similar to hack n slash games.
+🎮 Build your own 2.5D hack-n-slash platformer with a solid starting point!  
+Made with **Unreal Engine 5** and the **PaperZD Plugin**, this template combines classic platforming like *Mario* with light hack-n-slash combat systems.
 
-## Update 1.3!
+---
 
-- Demo Map
-- All previous updates into 1.3 (check the relase page for other things added)
+## 🆕 Update 1.3 Highlights
 
-## Base Systems:
+🗺️ **Demo Map Added**  
+Explore a new demo map that shows off all current features and systems.
 
--   **Stats Component:**
-    -   Easily manage health, defense, damage, and other attributes for various entities.
-    -   **Damage Calculation:** Implements a dynamic damage system where damage dealt is influenced by the attacker's attack stat and the defender's defense stat.
-        -   Formula: $\text{total damage} = \text{base damage} \times \frac{\text{attack}}{\text{attack} + \text{defense}}$
-    -   Simplifies the creation of diverse enemies with unique combat characteristics.
+📦 **Combined Content**  
+All previous updates are now merged into 1.3.  
 
--   **Dialogue Component:**
-    -   Simple in-game conversations with NPCs and in the future potential bosses.
-    -   **Datatable Driven:** Dialogue content is managed through easy-to-edit datatables.
-    -   Utilizes a custom **struct** for streamlined data handling.
+---
 
--   **Sprite Flicker Component:**
-    -   Adds visual feedback upon taking damage or other events.
-    -   Allows setting independent flicker durations for different object/enemy types.
-    -   Features a configurable flicker timer (float).
+## 📥 How to Get Started
 
-## Attack System:
+1. Download the latest release on the right hand side.
+2. Select **"Download ZIP"**.
+3. Unzip it to your **Unreal Projects** folder (or wherever you prefer).
+4. Open the project in **Unreal Engine 5**, and you're good to go!
 
--   **Linetrace for Hit Detection:**
-    -   Chose this instead of complex collision shapes for attack registration.
-    -   Optimized for 2D projects, offering good performance without the overhead of detailed collision management.
-    -   System should be simple as adding attacks, and not having to go into the animation to adjust every frame needed
+---
 
--   **Expandable Combo System:**
-    -   Utilizes a **tree-based system** for combo execution. For example, repeatedly pressing a light attack (L) can trigger a sequence like L, L, L, L, similar to many hack-n-slash games.
-    -   Implemented within the Animation Blueprint (AnimBP) using sprite sheets.
-    -   Built upon a tutorial framework with significant expansion and clear comments for easy modification.
+## ⚙️ Base Systems
 
-## Dialogue System:
+### 🧠 Stats Component
 
--   **Customizable Choices:** Enables interactive dialogues with branching options for the player.
--   **Leaving NPCs:** Currently functions as if the conversation continues, but the ability to exit dialogue will be implemented in a future update (hopefully soon!).
--   **DataTable Driven Flow:** Simplifies dialogue management, allowing for easy drag-and-drop assignment of conversations to NPC Blueprint classes.
+- Manage stats like health, defense, and attack.
+- 💥 **Damage Formula**:  
+  `total damage = base damage × (attack / (attack + defense))`
+- Makes it easy to create enemies with different strengths.
 
-## Objects:
+### 💬 Dialogue Component
 
-Contains a dedicated "Objects" folder with base classes designed for 2D elements using PaperZD. While standard Actor Blueprints could be used, these classes offer integrated functionalities like flipbook handling.
+- Basic conversations with NPCs (and possibly bosses later).
+- Driven by **DataTables** — easy to update!
+- Built with a clean custom **struct** for managing text.
 
--   Includes a **Damage Interface** (`BPI_Damageable`) for consistent damage application and reception across different object types.
+### ✨ Sprite Flicker Component
 
--   **Two Base Classes:**
-    -   **3D (WIP):** Supports both Skeletal and Static Meshes, catering to various animation needs. Currently under development with a focus on expanding animation capabilities.
-    -   **2D:** Utilizes Paper Flipbooks for visual representation. Implements basic damage handling and simple actor destruction upon overlap.
+- Gives feedback when characters or objects take damage.
+- Flicker time can be customized for each object/enemy.
+- Built using a simple float-based timer.
 
-## Enemies:
+---
 
-Features two initial enemy types, with plans for future expansion and refinement.
+## 🗡️ Attack System
 
--   **Turret:**
-    -   Uses **Pawn Sensing** to detect the player.
-    -   Spawns a bullet Blueprint object upon detection.
-    -   Currently rotates on both vertical and horizontal axes (intended to be vertical-only; a fix is planned).
+### 🎯 Hit Detection with Line Traces
 
--   **Skeleton:**
-    -   A basic enemy with health and damage attributes.
-    -   Currently lacks AI behavior to actively attack the player but reacts to damage and can be defeated with a sprite flicker effect.
-    -   **Future Enhancements:**
-        -   Simple AI implementation, including edge detection.
-        -   Functionality for the skeleton to see and attack the player.
+- Uses line traces instead of collision boxes for hits.
+- Clean and fast for 2D gameplay.
+- You can add attacks without adjusting every frame of the animation.
 
-## UI:
+### 🧩 Expandable Combo System
 
-Includes three basic Widget Blueprints with preliminary code:
+- Tree-based combo attacks, like: `L > L > L > L`
+- Easy to extend using the **Animation Blueprint (AnimBP)**.
+- Built on a tutorial base, but heavily expanded with comments to help you understand and change it.
 
--   **Death/Respawn Screen**
--   **Main Menu**
--   **Main Player HUD**
+---
 
-## Instructions:
+## 💬 Dialogue System (More Details)
 
-1.  Click the green "Code" button on the repository.
-2.  Select "Download ZIP".
-3.  Extract the downloaded ZIP file to your Unreal Projects folder or any other desired location.
+- Supports **choices** in conversations.
+- Leaving NPCs mid-dialogue isn’t implemented yet — but it’s planned!
+- Works by dragging and dropping conversations using DataTables into NPC Blueprints.
 
-*Side Note: This was my first experience with Git version control, so feedback on the repository structure is welcome!*
+---
 
-## Images:
+## 🧱 Objects Folder
 
+A special folder for base objects that work with **PaperZD**.
+
+- Includes a **Damage Interface** (`BPI_Damageable`) so anything can take damage consistently.
+- **2D Base Class**:
+  - Uses Flipbooks.
+  - Handles damage and self-destruction on overlap.
+- **3D Base Class (WIP)**:
+  - Supports Skeletal and Static Meshes.
+  - Still in development to expand animation features.
+
+---
+
+## 👾 Enemies
+
+Two example enemy types included, with more to come:
+
+### 🧍‍♂️ Skeleton
+
+- Has health and reacts to damage.
+- Doesn’t attack yet, but dies with a flicker.
+- 🧠 Planned Improvements:
+  - Basic AI (walk, detect edges, chase player)
+
+### 🧨 Turret
+
+- Uses **Pawn Sensing** to detect players.
+- Spawns bullets when it sees you.
+- Rotates on X and Y (will be limited to vertical-only soon).
+
+---
+
+## 🧾 UI System
+
+Includes 3 basic **Widget Blueprints**:
+
+- 🪦 Death / Respawn Screen
+- 🏠 Main Menu
+- 🎯 Player HUD
+
+Simple layouts that can be replaced with your own designs!
+
+---
+
+## 📸 Screenshots
+
+### Demo Gameplay  
 ![Gameplay Screenshot 1](https://github.com/user-attachments/assets/4aee32ab-6400-403e-b8c7-ea4c424974fe)
+
+### Combat and UI  
 ![Gameplay Screenshot 2](https://github.com/user-attachments/assets/a0eed4ed-6e23-41cb-9a3d-9870bef12766)
 
-#### End/Credits:
+---
 
-I'm an enthusiastic hobbyist who learns through resources like YouTube, itch.io, and personal study. I enjoy creating templates to help others in the game development community. I hope this template proves useful for your projects, and I plan to release more updates and additions in the future. Feel free to use, modify, and build upon this foundation!
+## 🔜 Coming Soon
 
-# Assets Used:
+- Skeleton AI that can chase and attack
+- More polish to dialogue (like exit options)
+- Additional example enemies and test maps
+- Visual effects and audio for combat hits
+
+---
+
+## 🎨 Assets Used
 
 - [Main Player](https://clembod.itch.io/warrior-free-animation-set)
 - [Skeleton](https://jesse-m.itch.io/skeleton-pack)
 - [Low Poly Assets](https://craigsnedeker.itch.io/classic64-asset-library)
+
+---
+
+## 🙌 Final Notes
+
+While I am familiar with UE5, I am learning through YouTube, itch.io, and trial and error.  
+This was my first time using Git version control — if the repo structure seems messy, feel free to send feedback!
+
+💡 This template is totally free — use it, break it, build on it, make it your own!  
+If you make something cool with it, I’d love to see it.  
+Thanks for checking it out!
 
